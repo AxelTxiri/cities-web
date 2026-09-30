@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    border: 0px;
+    background-color: #F9FAF8;
+}
+
+header, #hero, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+header #left, nav {
+    width: 40%;
+}
+
+header nav {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 12px;
+}
+
+#hero {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero #left, #hero figure {
+    width: 40%;
+}
+
+#hero figure {
+    display: flex;
+    justify-content: center;
+}
+
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero button, #call-to-action div, #call-to-action button{
+    background-color: #3882F6;
+}
+
+#hero button, #call-to-action {
+    font-size: 20px;
+    color: #E5E7EB;
+    font-weight: 900;
+}
+
+#information {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#information #bottom, #information #top{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#information #bottom div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#testimonial {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonial p {
+    width: 70%;
+    justify-content: start;
+    margin-bottom: 0px;
+}
+
+#testimonial h3 {
+    display: flex;
+    justify-content: end;
+    width: 70%;
+    margin-top: 0px;
+}
+
+#testimonial {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#testimonial h3{
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#call-to-action {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#call-to-action div {
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#call-to-action div #left {
+    width: 70%;
+    height: 120;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#call-to-action div #right {
+    width: 30%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#call-to-action div #left h3 {
+    width: 70%;
+    margin: 0px;
+}
+
+#call-to-action div #left p {
+    width: 70%;
+    margin: 0px;
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 12px;
+}
